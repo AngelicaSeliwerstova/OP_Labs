@@ -18,7 +18,7 @@ public class Main {
             System.out.println(3);
         } else if (x < d) {
             System.out.println(4);
-        } else {
+        } else if (x > d) {
             System.out.println(5);
         }
     }
