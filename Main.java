@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        long x = in.nextLong();
-        long a = in.nextLong();
-        long b = in.nextLong();
-        long c = in.nextLong();
-        long d = in.nextLong();
+        byte x = in.nextByte();
+        byte a = in.nextByte();
+        byte b = in.nextByte();
+        byte c = in.nextByte();
+        byte d = in.nextByte();
 
         if (x < a) {
             System.out.println(1);
