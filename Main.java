@@ -2,17 +2,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Объявляем объект класса Scanner для ввода данных
         Scanner in = new Scanner(System.in);
 
-        // Считываем точку X и точки A, B, C, D
-        int x = in.nextInt();
-        int a = in.nextInt();
-        int b = in.nextInt();
-        int c = in.nextInt();
-        int d = in.nextInt();
+        long x = in.nextLong();
+        long a = in.nextLong();
+        long b = in.nextLong();
+        long c = in.nextLong();
+        long d = in.nextLong();
 
-        // Определяем номер участка
         if (x < a) {
             System.out.println(1);
         } else if (x < b) {
