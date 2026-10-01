@@ -10,20 +10,16 @@ public class Main {
         long c = in.nextLong();
         long d = in.nextLong();
 
-        byte result;
-
         if (x < a) {
-            result = 1;
+            System.out.println(1);
         } else if (x < b) {
-            result = 2;
+            System.out.println(2);
         } else if (x < c) {
-            result = 3;
+            System.out.println(3);
         } else if (x < d) {
-            result = 4;
+            System.out.println(4);
         } else {
-            result = 5;
+            System.out.println(5);
         }
-
-        System.out.println(result);
     }
 }
