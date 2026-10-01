@@ -18,7 +18,8 @@ public class Main {
             System.out.println(3);
         } else if (x < d) {
             System.out.println(4);
-        } else if (x > d) {
+        } else {
+            // Если предыдущие условия не выполнились, то x > d
             System.out.println(5);
         }
     }
