@@ -10,19 +10,6 @@
 | Лабораторная работа № 1 | Определение участка числовой прямой | [Lab1/README.md](Lab1/README.md) | [Lab1/Main.java](Lab1/Main.java) |
 | Лабораторная работа № 2 | Обработка массива натуральных чисел | [Lab2/README.md](Lab2/README.md) | [Lab2/Main.java](Lab2/Main.java) |
 
-## Структура репозитория
-
-```text
-OP_Labs/
-├── README.md
-├── Lab1/
-│   ├── Main.java
-│   └── README.md
-└── Lab2/
-    ├── Main.java
-    └── README.md
-```
-
 ## Запуск программы
 
 Перейдите в папку нужной лабораторной работы и выполните команды:
