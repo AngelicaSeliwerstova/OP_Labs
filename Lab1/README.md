@@ -150,7 +150,6 @@ public class Main {
         } else if (x < d) {
             System.out.println(4);
         } else {
-            // Если предыдущие условия не выполнились, то x > d
             System.out.println(5);
         }
     }
